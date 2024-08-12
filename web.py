@@ -10,7 +10,7 @@ def add_todo():
 
 st.title("My Todo App")
 st.subheader("My todo app")
-st.text("streamlit text")
+st.text("My first web app!!")
 
 for index,todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
